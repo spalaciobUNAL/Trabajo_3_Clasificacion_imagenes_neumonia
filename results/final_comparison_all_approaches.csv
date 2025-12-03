@@ -1,0 +1,40 @@
+Ranking,Enfoque,Modelo,Tipo,Accuracy,Precision,Recall,F1_Score,AUC_ROC,N_Features
+1,Descriptores Tradicionales,k-NN,Handcrafted Features,0.79,0.7457627118644068,0.88,0.8073394495412844,0.8725999999999999,200
+2,Descriptores Tradicionales,Random Forest,Handcrafted Features,0.73,0.676923076923077,0.88,0.7652173913043478,0.8625999999999999,200
+3,Descriptores Tradicionales,Naive Bayes,Handcrafted Features,0.7,0.6428571428571429,0.9,0.75,0.7674,200
+4,Descriptores Tradicionales,SVM,Handcrafted Features,0.66,0.6025641025641025,0.94,0.734375,0.8864,200
+5,Descriptores Tradicionales,Logistic Regression,Handcrafted Features,0.64,0.5875,0.94,0.7230769230769231,0.8772,200
+6,Descriptores Tradicionales,Gradient Boosting,Handcrafted Features,0.59,0.5542168674698795,0.92,0.6917293233082706,0.704,200
+7,Deep Learning,CNN Simple,CNN,0.5699999928474426,0.5393258426966292,0.96,0.6906474820143885,0.8332,Imágenes completas
+8,Combinaciones Descriptores,Completo Sin HOG + Random Forest,Feature Selection,0.59,0.5569620253164557,0.88,0.6821705426356589,0.6122000000000001,100
+9,Combinaciones Descriptores,Textura (LBP + GLCM + Gabor) + SVM,Feature Selection,0.62,0.5882352941176471,0.8,0.6779661016949152,0.739,100
+10,Combinaciones Descriptores,Textura Avanzada + SVM,Feature Selection,0.6,0.5675675675675675,0.84,0.6774193548387096,0.7056,100
+11,Combinaciones Descriptores,Solo Gabor + Random Forest,Feature Selection,0.6,0.5675675675675675,0.84,0.6774193548387096,0.6136,60
+12,Deep Learning,VGG16 Transfer,CNN,0.5199999809265137,0.5102040816326531,1.0,0.6756756756756757,0.9444,Imágenes completas
+13,Combinaciones Descriptores,Completo Sin HOG + Logistic Regression,Feature Selection,0.59,0.5616438356164384,0.82,0.6666666666666666,0.5636,100
+14,Combinaciones Descriptores,Textura (LBP + GLCM + Gabor) + Random Forest,Feature Selection,0.59,0.5616438356164384,0.82,0.6666666666666666,0.6412000000000001,100
+15,Deep Learning,CNN Profunda,CNN,0.5,0.5,1.0,0.6666666666666666,0.24160000000000004,Imágenes completas
+16,Combinaciones Descriptores,Completo Sin HOG + SVM,Feature Selection,0.58,0.5540540540540541,0.82,0.6612903225806451,0.701,100
+17,Combinaciones Descriptores,Textura Avanzada + Random Forest,Feature Selection,0.56,0.5384615384615384,0.84,0.65625,0.5999999999999999,100
+18,Combinaciones Descriptores,Textura Avanzada + Logistic Regression,Feature Selection,0.57,0.5466666666666666,0.82,0.656,0.5644,100
+19,Combinaciones Descriptores,Textura (LBP + GLCM + Gabor) + Logistic Regression,Feature Selection,0.59,0.5652173913043478,0.78,0.6554621848739496,0.5995999999999999,100
+20,Combinaciones Descriptores,Solo Gabor + SVM,Feature Selection,0.6,0.578125,0.74,0.6491228070175439,0.6095999999999999,60
+21,Combinaciones Descriptores,Forma + Textura Básica + SVM,Feature Selection,0.53,0.5180722891566265,0.86,0.6466165413533834,0.65,100
+22,Combinaciones Descriptores,Solo HOG + SVM,Feature Selection,0.53,0.5180722891566265,0.86,0.6466165413533834,0.65,100
+23,Combinaciones Descriptores,Forma (HOG + Hu + Contour) + SVM,Feature Selection,0.53,0.5180722891566265,0.86,0.6466165413533834,0.65,100
+24,Combinaciones Descriptores,Todos los Descriptores + Random Forest,Feature Selection,0.56,0.5405405405405406,0.8,0.6451612903225806,0.6608,100
+25,Combinaciones Descriptores,Solo Gabor + Logistic Regression,Feature Selection,0.59,0.5692307692307692,0.74,0.6434782608695652,0.5436,60
+26,Combinaciones Descriptores,Todos los Descriptores + Logistic Regression,Feature Selection,0.54,0.5256410256410257,0.82,0.640625,0.48800000000000004,100
+27,Combinaciones Descriptores,Todos los Descriptores + SVM,Feature Selection,0.52,0.5121951219512195,0.84,0.6363636363636364,0.6252000000000001,100
+28,Combinaciones Descriptores,Forma + Textura Básica + Logistic Regression,Feature Selection,0.52,0.5125,0.82,0.6307692307692307,0.508,100
+29,Combinaciones Descriptores,Solo HOG + Logistic Regression,Feature Selection,0.52,0.5125,0.82,0.6307692307692307,0.508,100
+30,Combinaciones Descriptores,Forma (HOG + Hu + Contour) + Logistic Regression,Feature Selection,0.52,0.5125,0.82,0.6307692307692307,0.508,100
+31,Combinaciones Descriptores,Solo HOG + Random Forest,Feature Selection,0.52,0.5131578947368421,0.78,0.6190476190476191,0.6588,100
+32,Combinaciones Descriptores,Forma (HOG + Hu + Contour) + Random Forest,Feature Selection,0.52,0.5131578947368421,0.78,0.6190476190476191,0.6588,100
+33,Combinaciones Descriptores,Forma + Textura Básica + Random Forest,Feature Selection,0.52,0.5131578947368421,0.78,0.6190476190476191,0.6588,100
+34,Combinaciones Descriptores,Solo LBP + Random Forest,Feature Selection,0.55,0.5396825396825397,0.68,0.6017699115044248,0.5720000000000001,26
+35,Combinaciones Descriptores,Solo GLCM + SVM,Feature Selection,0.56,0.55,0.66,0.6,0.5848,60
+36,Combinaciones Descriptores,Solo GLCM + Random Forest,Feature Selection,0.5,0.5,0.72,0.5901639344262295,0.5138,60
+37,Combinaciones Descriptores,Solo LBP + SVM,Feature Selection,0.58,0.58,0.58,0.58,0.5815999999999999,26
+38,Combinaciones Descriptores,Solo GLCM + Logistic Regression,Feature Selection,0.49,0.49295774647887325,0.7,0.5785123966942148,0.424,60
+39,Combinaciones Descriptores,Solo LBP + Logistic Regression,Feature Selection,0.55,0.5471698113207547,0.58,0.5631067961165048,0.5188,26

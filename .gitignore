@@ -1,8 +1,6 @@
 # --- Carpetas grandes ---
 venv/
-data/
-results/
-models/
+
 
 # --- Archivos de configuración ---
 config.pkl

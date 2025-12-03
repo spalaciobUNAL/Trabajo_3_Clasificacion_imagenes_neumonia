@@ -1,0 +1,40 @@
+{
+  "feature_extraction_params": {
+    "img_size": [
+      224,
+      224
+    ],
+    "hog_orientations": 9,
+    "lbp_radius": 3,
+    "lbp_n_points": 24,
+    "glcm_distances": [
+      1,
+      2,
+      3
+    ],
+    "glcm_angles": [
+      0,
+      45,
+      90,
+      135
+    ],
+    "gabor_frequencies": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "gabor_orientations": [
+      0,
+      45,
+      90,
+      135
+    ]
+  },
+  "feature_dimensions": {
+    "total_per_image": 26415
+  },
+  "class_mapping": {
+    "NORMAL": 0,
+    "PNEUMONIA": 1
+  }
+}

@@ -104,7 +104,7 @@ El proyecto utilizó un dataset público de radiografías de tórax, compuesto p
 - **Distribución de intensidades:** KDE/CDF muestran diferencias consistentes.  
 - **Intensidad promedio y variabilidad:** mayor en neumonía, mayor dispersión entre imágenes afectadas.  
 
-> ![Ejemplo Exploratory Analysis](ruta/de/la/imagen_exploratory.png)
+> ![Ejemplo Exploratory Analysis](results\figures\dataset_samples_train.png)
 
 ---
 

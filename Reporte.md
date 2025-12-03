@@ -104,8 +104,6 @@ El proyecto utilizó un dataset público de radiografías de tórax, compuesto p
 - **Distribución de intensidades:** KDE/CDF muestran diferencias consistentes.  
 - **Intensidad promedio y variabilidad:** mayor en neumonía, mayor dispersión entre imágenes afectadas.  
 
-> ![Graficos]([results\figures\dataset_samples_train.png](https://github.com/Henrricson2/Trabajo_3_Clasificacion_imagenes_neumonia/blob/main/results/figures/preprocessing_pipeline_demo.png))
-
 ---
 
 ## 3.2. Notebook 02 — Feature Extraction
@@ -116,7 +114,7 @@ El proyecto utilizó un dataset público de radiografías de tórax, compuesto p
 - Detecta costillas, columna, contornos pulmonares.  
 - Valores normalizados: -7.58 a 10.  
 
-> ![Ejemplo HOG](ruta/de/la/imagen_HOG.png)
+
 
 ### Momentos de Hu y Geometría
 - Área: 22,372 px, Perímetro: 4,243  
@@ -126,7 +124,7 @@ El proyecto utilizó un dataset público de radiografías de tórax, compuesto p
 - Textura local robusta a iluminación  
 - Diferencia tejido sano vs patológico  
 
-> ![Ejemplo LBP](ruta/de/la/imagen_LBP.png)
+
 
 ### GLCM
 - 60 dimensiones  
@@ -142,7 +140,6 @@ El proyecto utilizó un dataset público de radiografías de tórax, compuesto p
 
 **Conclusión:** conjunto de características robusto y diferenciador.
 
-> ![Resumen de extracción de características](ruta/de/la/imagen_resumen.png)
 
 ---
 
